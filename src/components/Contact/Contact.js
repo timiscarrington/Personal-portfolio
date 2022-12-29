@@ -1,5 +1,5 @@
 import './Contact.scss'
-
+import { MapContainer, TileLayer, Marker} from 'react-leaflet'
 import React, { useState, useEffect, useRef } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -9,7 +9,7 @@ const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
-    const key = 'KPCD7R3j5PiPFM_YF'
+    const apiKey=process.env.REACT_APP_EMAIL_API
 
     useEffect(() => {
         setTimeout(()=> {
@@ -25,7 +25,7 @@ const Contact = () => {
             'service_we8rb5d',
             'template_l3lnxma',
             refForm.current,
-            key
+            apiKey
         )
         .then(
             ()=> {
@@ -81,7 +81,24 @@ const Contact = () => {
 
     </div>
     </div>
-    <Loader type='pacman' />
+    <div className='info-map'>
+        Tim Carrington
+        <br />
+        3621 1st Ave Nw
+        <br />
+        Seattle,WA
+        <br />
+        United States
+        <br />
+        <span>timiscarrington@gmail.com</span>
+    </div>
+    <div className='map-wrap'>
+        <MapContainer center={[47.6542, -122.3500]} zoom={12} scrollWheelZoom={false}>
+            <TileLayer   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[47.6542, -122.3500]} />
+        </MapContainer>
+    </div>
     </>
   )
 }
