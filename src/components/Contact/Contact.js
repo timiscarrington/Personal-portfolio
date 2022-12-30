@@ -84,8 +84,6 @@ const Contact = () => {
     <div className='info-map'>
         Tim Carrington
         <br />
-        3621 1st Ave Nw
-        <br />
         Seattle,WA
         <br />
         United States
