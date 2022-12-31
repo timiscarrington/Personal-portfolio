@@ -22,6 +22,7 @@
       }
   
       li.half {
+       
         width: 49%;
         margin-left: 2%;
         float: left;
@@ -58,18 +59,24 @@
     }
   
     .flat-button {
-      color: #ffd700;
+      color: #D5AD36;
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #ffd700;
+      border: 1px solid #D5AD36;
       float: right;
       border-radius: 4px;
       background: 0 0;
       text-transform: uppercase;
       text-align: center;
       margin-right: 10px;
+
+      &:hover{
+        background: #F4F2C9 ;
+        color: #333;
+        cursor: pointer;
+    }
     }
   }
 
@@ -93,7 +100,7 @@
       font-size: 16px;
   
       span {
-        color: #ffd700;
+        color: #6fabf4;
       }
     }
   }
