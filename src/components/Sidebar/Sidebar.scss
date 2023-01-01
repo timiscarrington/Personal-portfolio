@@ -138,6 +138,9 @@
   
   
   @media screen and (max-width: 1200px) {
+    .logo{
+      display:none;
+    }
     .nav-bar { 
       background: transparent;
       position: initial;
@@ -189,3 +192,4 @@
        }
     }
   }
+  

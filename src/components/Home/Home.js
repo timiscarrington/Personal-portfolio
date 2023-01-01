@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import LogoT from '../../assets/images/Letter.png'
+import LogoT from '../../assets/images/Untitled (1).png'
 import {Link} from 'react-router-dom'
 import './Home.scss';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
@@ -28,14 +28,20 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img src={LogoT} alt="developer" />
             <AnimatedLetters letterClass={letterClass}
-            strArray={nameArray}
+            strArray={'im.'. split("")}
             idx={15} />
             <br />
-            <AnimatedLetters letterClass={letterClass}
-            strArray={jobArray}
-            idx={22} />
+            <AnimatedLetters 
+            letterClass={letterClass}
+            strArray={'Software'.split("")}
+                idx={22} />
+                <br/>
+            <AnimatedLetters 
+            letterClass={letterClass}
+            strArray={'Engineer'.split("")}
+                idx={29} />
             </h1>
-            <h2> Fullstack Develper</h2>
+            <h2> Fullstack Developer</h2>
             <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         </div>
         <Logo />

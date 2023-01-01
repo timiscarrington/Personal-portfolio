@@ -1,7 +1,7 @@
 .logo-container {
     z-index: 0;
     width: 400px;
-    height: 509px;
+    height: 609px;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -9,5 +9,18 @@
     bottom: 0;
     left: auto;
     margin: auto;
-    animation: bounceIn 1s 1s
+    animation: pulse 5s infinite
+    ;
+
+.solid-logo {
+    position: absolute;
+    top: 100px;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+  }
 }

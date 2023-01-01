@@ -1,6 +1,8 @@
-$primary-color: #D5AD36;
+$primary-color: #4488BF;
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
+
+
 
 @font-face {
   font-family: 'Halvetica Neue';
@@ -15,7 +17,7 @@ $primary-color: #D5AD36;
   font-style: normal;
 }
 @font-face {
-  font-family: "Collvetica";
+  font-family: "Coolvetica";
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;

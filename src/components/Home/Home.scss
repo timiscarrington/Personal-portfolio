@@ -37,7 +37,7 @@
         }
         img{
            
-            width:62px;
+            width:82px;
             margin-left: 10px;
             opacity: 0;
            height: auto;
@@ -71,8 +71,37 @@ h2 {
     white-space: nowrap;
 
     &:hover{
-        background: #F4F2C9 ;
+        background: #6fabf4 ;
         color: #333;
         cursor: pointer;
     }
 }
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1:before,
+    .home-page h1:after {
+      display: none;
+    }
+  
+    .home-page{
+         .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .home-page .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 124px;
+    }
+  
+    .logo-container {
+    display:none;
+
+      }
+    }
+  }

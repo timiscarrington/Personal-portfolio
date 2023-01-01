@@ -2,21 +2,21 @@
     "projects": [
         {
             "cover": "/portfolio/Black_Jack_proj.jpg",
-            "title": "BlackJack Game",
+            "title": "BlackJack",
             "description": "Html5, CSS, Javascript",
             "URL": "http://timiscarrington.github.io/Project_1_BlackJack/"
             
         },
         {
             "cover": "/portfolio/dashboard.png",
-            "title": "Personal Dashboard/Landing Page",
+            "title": "Dashboard",
             "description": "Html5, CSS, Javascript, React, Bootstrap",
             "URL": " https://mypersonaldashboard.netlify.app/"
             
         },
         {
             "cover": "/portfolio/foodApp.png",
-            "title": "Food ordering APP",
+            "title": "Food App",
             "description": "Html5, CSS, Javascript, React, MongoDB, Express, Mongoose",
             "URL": " https://mypersonaldashboard.netlify.app/"
             
