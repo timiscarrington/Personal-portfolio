@@ -5,17 +5,12 @@
             "title": "BlackJack",
             "description": "Html5, CSS, Javascript",
             "URL": "http://timiscarrington.github.io/Project_1_BlackJack/"
-            
         },
         {
             "cover": "/portfolio/airbnb.png",
             "title": "Airbnb Clone",
             "description": "Html5, CSS, Javascript, React, Bootstrap MongoDB, Express, Mongoose",
             "URL": "https://jade-heliotrope-86f957.netlify.app/"
-            
         }
-    
-
-
     ]
 }

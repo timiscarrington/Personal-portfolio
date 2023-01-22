@@ -10,12 +10,14 @@ $primary-color: #4488BF;
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Coolvetica";
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
@@ -24,9 +26,10 @@ $primary-color: #4488BF;
 }
 
 input,
-textarea{
-  font-family:'Halvetica Neue' ;
+textarea {
+  font-family: 'Halvetica Neue';
 }
+
 .loader-hidden {
   display: none;
 }
