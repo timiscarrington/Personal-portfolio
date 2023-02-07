@@ -34,13 +34,18 @@ const Portfolio = () => {
                                 <div className='content'>
                                     <p className='title'>{project.title}</p>
                                     <h4 className='description'>{project.description}</h4>
-                                    <button
-                                        className='btn'
-                                        onClick={() => window.open(project.URL)}>View</button>
+                                    <div className='btn-container'>
+                                        <button
+                                            className='btn'
+                                            onClick={() => window.open(project.URL)}>Live Site</button>
+                                        <button
+                                            className='btn'
+                                            onClick={() => window.open(project.Github_Frontend)}>GitHub</button>
+                                    </div>
                                 </div>
                             </div>
                         )
-
+    
                     })
                 }
             </div>
