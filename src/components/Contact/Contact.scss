@@ -83,10 +83,10 @@
 .info-map {
   position: absolute;
   background: #000;
-  top: 50px;
-  right: 30%;
+  top: 10px;
+  right: 35%;
   z-index: 999999;
-  width: 267px;
+  width: 180px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
@@ -110,7 +110,7 @@
   float: right;
   width: 53%;
   height: 115%;
-  margin-top: -3%;
+  margin-top: 0%;
 }
 
 .leaflet-container {

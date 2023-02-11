@@ -1,5 +1,5 @@
 import './Contact.scss'
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, ZoomControl } from 'react-leaflet'
 import React, { useState, useEffect, useRef } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -91,7 +91,7 @@ const Contact = () => {
                 <span>timiscarrington@gmail.com</span>
             </div>
             <div className='map-wrap'>
-                <MapContainer center={[47.6542, -122.3500]} zoom={12} scrollWheelZoom={false}>
+                <MapContainer center={[47.6542, -122.3500]} zoom={12} scrollWheelZoom={false} zoomControl={false}>
                     <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                     <Marker position={[47.6542, -122.3500]} />
