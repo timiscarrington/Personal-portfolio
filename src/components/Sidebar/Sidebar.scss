@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #4488BF;
+        color: #4488bf;
 
         svg {
           opacity: 0;
@@ -96,10 +96,9 @@
       }
     }
 
-
     a.active {
       svg {
-        color: #4488BF;
+        color: #4488bf;
       }
     }
   }
@@ -125,7 +124,7 @@
 
       &:hover {
         .anchor-icon {
-          color: #4488BF;
+          color: #4488bf;
         }
       }
     }
@@ -136,7 +135,6 @@
 .close-icon {
   display: none;
 }
-
 
 @media screen and (max-width: 1200px) {
   .logo {
@@ -178,7 +176,7 @@
         opacity: 1;
         position: initial;
         width: auto;
-        margin-left: 10PX;
+        margin-left: 10px;
       }
 
       a svg {
