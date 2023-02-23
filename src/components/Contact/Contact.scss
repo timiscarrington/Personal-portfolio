@@ -39,7 +39,7 @@
     width: 100%;
     border: 0;
     background: #115173;
-    height: 50px;
+    height: 40px;
     font-size: 16px;
     color: #fff;
     padding: 0 20px;
@@ -50,12 +50,13 @@
     width: 100%;
     border: 0;
     background: #115173;
-    height: 50px;
+    height: 80px;
     font-size: 16px;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+    margin-bottom: 1px;
   }
 
   .flat-button {
@@ -71,6 +72,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-right: 10px;
+    margin-top: 1px;
 
     &:hover {
       background: #F4F2C9;
@@ -134,3 +136,71 @@
     display: none;
   }
 }
+  /* Adjust styles for small screens */
+  @media only screen and (max-width: 600px) {
+    input[type='text'],
+    input[type='email'] {
+      font-size: 14px;
+      height: 40px;
+      padding: 0 10px;
+    }
+
+    textarea {
+      font-size: 14px;
+      height: 100px;
+      padding: 10px;
+    }
+
+    .flat-button {
+      font-size: 10px;
+      padding: 6px 8px;
+      margin-right: 5px;
+      margin-bottom: 2px;
+    }
+  }
+
+  /* Adjust styles for medium screens */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    input[type='text'],
+    input[type='email'] {
+      font-size: 16px;
+      height: 45px;
+      padding: 0 15px;
+    }
+
+    textarea {
+      font-size: 16px;
+      height: 125px;
+      padding: 15px;
+    }
+
+    .flat-button {
+      font-size: 11px;
+      padding: 7px 9px;
+      margin-right: 8px;
+      margin-bottom: 4px;
+    }
+  }
+
+  /* Adjust styles for large screens */
+  @media only screen and (min-width: 1025px) {
+    input[type='text'],
+    input[type='email'] {
+      font-size: 18px;
+      height: 55px;
+      padding: 0 20px;
+    }
+
+    textarea {
+      font-size: 18px;
+      height: 200px;
+      padding: 20px;
+    }
+
+    .flat-button {
+      font-size: 12px;
+      padding: 10px 12px;
+      margin-right: 12px;
+      margin-bottom: 8px;
+    }
+  }
