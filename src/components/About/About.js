@@ -26,8 +26,8 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p> As a full-stack developer, I am passionate about creating innovative and user-friendly solutions to complex problems. My background in project management and hands-on experience in the construction and development industry has honed my problem-solving, project management, and attention to detail skills</p>
-                    <p> I have a solid foundation in computer science and software development and am proficient in technologies such as HTML/CSS, Javascript, Python, React, Node.js, Django, NoSql and SQL. I am always eager to learn new technologies and programming languages. My ultimate goal is to develop software that is efficient, reliable and easy to use for the end-user.</p>
+                    <p> As a full-stack developer, I am passionate about creating innovative and user-friendly solutions to complex problems. My background in project management and hands-on experience in the construction and development industry has honed my problem-solving, project management, and attention to detail skills.</p>
+                    <p> I have a strong foundation in software development and am proficient in technologies such as HTML/CSS, Javascript, Python, React, Node.js, Django, NoSql and SQL. I am always eager to learn new technologies and programming languages. My ultimate goal is to develop software that is efficient, reliable and easy to use for the end-user.</p>
                     <p>In my free time, I enjoy staying current on the latest industry trends and developments, as well as pursuing my hobbies such as fitness, the outdoors, sports, hiking and camping trips, and home improvement and woodworking projects. With my diverse background, I am confident that I can bring a unique and valuable perspective to any full-stack development project.</p>
                 </div>
 
